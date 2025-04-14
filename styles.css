@@ -5,9 +5,7 @@ body {
     background: linear-gradient(to bottom right, #e6f0ff, #ffffff);
     color: #333;
     margin: 0;
-    padding: 0;
-    height: 100vh; /* Ensures the gradient covers the full viewport */
-    background-size: cover; /* Ensures the gradient fills the entire screen */
+    padding: 40px 20px;
 }
 
 .container {
