@@ -8,7 +8,6 @@ html, body {
 body {
     font-family: 'Inter', sans-serif;
     background: linear-gradient(to bottom, #e6f0ff, #ffffff); /* Gradient from light blue to white */
-    background-color: #e6f0ff; /* Fallback color for older browsers or issues */
     color: #333;
     margin: 0;
     padding: 40px 20px;
