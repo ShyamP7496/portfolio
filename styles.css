@@ -72,14 +72,20 @@ h2 {
     color: #00509e;
 }
 
+/* Link styling */
 a {
     color: #007bff;
     text-decoration: none;
     font-weight: 600;
+    padding: 10px 20px;  /* Adds padding to the left/right (20px) and top/bottom (10px) */
+    border-radius: 5px;   /* Optional: rounds the corners of the link */
+    transition: background-color 0.3s ease;
 }
 
+/* Hover effect for links */
 a:hover {
     text-decoration: underline;
+    background-color: #f0f8ff;  /* Light background when hovered */
 }
 
 .footer {
