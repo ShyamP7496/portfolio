@@ -27,19 +27,24 @@ h1 {
     font-size: 2.5rem;
     color: #222;
     margin-bottom: 10px;
-    text-align: center; /* Centers only the name */
+    text-align: center; /* Centers the name */
 }
 
-.container p:first-of-type {
+.container > p:first-of-type {
     font-size: 1.2rem;
     color: #444;
     margin-top: 0;
     text-align: center; /* Centers only the first paragraph (description) */
 }
 
-/* Ensure all other paragraphs are aligned left */
+/* Ensure all other paragraphs inside projects are aligned left */
 .project p {
     text-align: left; /* Aligns project descriptions to the left */
+}
+
+/* Ensures all other paragraphs in the container stay left-aligned */
+.container p {
+    text-align: left; /* Default alignment for other paragraphs */
 }
 
 h2 {
