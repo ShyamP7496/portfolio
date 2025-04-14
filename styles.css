@@ -80,6 +80,8 @@ a {
     padding: 10px 20px;  /* Adds padding to the left/right (20px) and top/bottom (10px) */
     border-radius: 5px;   /* Optional: rounds the corners of the link */
     transition: background-color 0.3s ease;
+    display: inline-block;  /* Ensures the link doesn't stretch like a block element */
+    margin: 0;  /* Removes any unwanted margin that might cause extra space */
 }
 
 /* Hover effect for links */
